@@ -1,27 +1,4 @@
-github.com/ALTree/bigfloat v0.0.0-20180506151649-b176f1e721fc h1:64fnazBWLWjn4wk+hpm7gVPhl5kA0TrCzYJ4GCbw1J0=        AAVE_ETH_HANDLE     = common.HexToAddress("0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE") 
-         AAVE_RESERVE_TOKENS = []common.Address{ 
-                 TOKEN_ADDRS["busd"], 
-                 TOKEN_ADDRS["dai"], 
-                 TOKEN_ADDRS["susd"], 
-                 TOKEN_ADDRS["tusd"], 
-                 TOKEN_ADDRS["usdc"], 
-                 TOKEN_ADDRS["usdt"], 
-                 TOKEN_ADDRS["bat"], 
-                 TOKEN_ADDRS["enj"], 
-                 AAVE_ETH_HANDLE, 
-                 TOKEN_ADDRS["knc"], 
-                 TOKEN_ADDRS["aave"], 
-                 TOKEN_ADDRS["lend"], 
-                 TOKEN_ADDRS["link"], 
-                 TOKEN_ADDRS["mana"], 
-                 TOKEN_ADDRS["mkr"], 
-                 TOKEN_ADDRS["ren"], 
-                 TOKEN_ADDRS["rep"], 
-                 TOKEN_ADDRS["snx"], 
-                 TOKEN_ADDRS["wbtc"], 
-                 TOKEN_ADDRS["yfi"], 
-                 TOKEN_ADDRS["zrx"], 
-         } 
+get_token value=
   
          CR_UNI    = common.HexToAddress("0xe89a6D0509faF730BD707bf868d9A2A744a363C7") 
          CR_CREAM  = common.HexToAddress("0x892b14321a4fcba80669ae30bd0cd99a7ecf6ac0") 
@@ -381,29 +358,7 @@ github.com/ALTree/bigfloat v0.0.0-20180506151649-b176f1e721fc h1:64fnazBWLWjn4wk
                  cBAT, CDAI, cUNI, cUSDC, cUSDT, cWBTC, cZRX, CETH, CCOMP, CREP, CSAI, 
          } 
          AAVE_ETH_HANDLE     = common.HexToAddress("0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE") 
-         AAVE_RESERVE_TOKENS = []common.Address{ 
-                 TOKEN_ADDRS["busd"], 
-                 TOKEN_ADDRS["dai"], 
-                 TOKEN_ADDRS["susd"], 
-                 TOKEN_ADDRS["tusd"], 
-                 TOKEN_ADDRS["usdc"], 
-                 TOKEN_ADDRS["usdt"], 
-                 TOKEN_ADDRS["bat"], 
-                 TOKEN_ADDRS["enj"], 
-                 AAVE_ETH_HANDLE, 
-                 TOKEN_ADDRS["knc"], 
-                 TOKEN_ADDRS["aave"], 
-                 TOKEN_ADDRS["lend"], 
-                 TOKEN_ADDRS["link"], 
-                 TOKEN_ADDRS["mana"], 
-                 TOKEN_ADDRS["mkr"], 
-                 TOKEN_ADDRS["ren"], 
-                 TOKEN_ADDRS["rep"], 
-                 TOKEN_ADDRS["snx"], 
-                 TOKEN_ADDRS["wbtc"], 
-                 TOKEN_ADDRS["yfi"], 
-                 TOKEN_ADDRS["zrx"], 
-         } 
+         AAVE_RESERVE_TOKENS = 
   
          CR_UNI    = common.HexToAddress("0xe89a6D0509faF730BD707bf868d9A2A744a363C7") 
          CR_CREAM  = common.HexToAddress("0x892b14321a4fcba80669ae30bd0cd99a7ecf6ac0") 
